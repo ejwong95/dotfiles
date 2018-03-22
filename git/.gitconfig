@@ -1,0 +1,26 @@
+[color]
+	ui = true
+	diff = always
+[user]
+	name = Emma Wong
+	email = ejwong95@gmail.com
+[alias]
+	tree = ! git log --graph --oneline --no-decorate --color | less -R
+	tr = ! git log --color --graph --pretty=format:\"%C(cyan)%<(9,trunc)%an%C(reset)%C(yellow)%ar%C(reset) %<(50,trunc)%s\" | less -R --chop-long-lines
+	st = status --short --branch
+	di = "!f() { git diff \"$@\" | less -R; }; f"
+	dt = difftool
+[push]
+	default = upstream
+[diff]
+	compactionHeuristic = true
+	tool = gvimdiff
+[difftool "gvimdiff"]
+	cmd = gvim -f -R -d \"$LOCAL\" \"$REMOTE\"
+[core]
+	excludesfile = ~/.gitignore-global
+[rerere]
+	enabled = true
+
+[commit]
+	template = ~/.gitmessage 
