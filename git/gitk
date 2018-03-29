@@ -49,7 +49,7 @@ set mainheadcirclecolor yellow
 set workingfilescirclecolor red
 set indexcirclecolor #00ff00
 set circlecolors {white blue gray blue blue}
-set linkfgcolor blue
+set linkfgcolor #3099c1
 set circleoutlinecolor black
 set geometry(main) 1377x761+437+1045
 set geometry(state) normal
