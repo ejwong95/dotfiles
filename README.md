@@ -5,3 +5,4 @@
 * Install pyenv: https://github.com/pyenv/pyenv
 * Steps for installing powerline fonts: https://powerline.readthedocs.io/en/latest/installation/linux.html#fonts-installation
 * Install SourceCodeProforPowerline (view raw): https://github.com/powerline/fonts/blob/master/SourceCodePro/Source%20Code%20Pro%20Medium%20for%20Powerline.otf
+* Install git-completion: https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion
