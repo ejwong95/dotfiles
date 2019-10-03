@@ -102,3 +102,12 @@ RPROMPT='[%D{%y/%m/%f}|%@]'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+# if Docker is installed
+alias dc='docker-compose'
+alias dcr='docker-compose run --rm'
+# if Django and coverage are installed on Docker
+alias dcr-coverage='dcr --entrypoint="../bin/coverage.sh" django'
+
