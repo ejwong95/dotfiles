@@ -75,7 +75,10 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-RPROMPT='[%D{%y/%m/%f}|%@]'
+RPROMPT='[%D{%f/%m/%y}|%@]'
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # User configuration
 
@@ -105,9 +108,13 @@ RPROMPT='[%D{%y/%m/%f}|%@]'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-# if Docker is installed
 alias dc='docker-compose'
 alias dcr='docker-compose run --rm'
-# if Django and coverage are installed on Docker
 alias dcr-coverage='dcr --entrypoint="../bin/coverage.sh" django'
-
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+#if command -v pyenv 1>/dev/null 2>&1; then
+#  eval "$(pyenv init -)"
+#fi
+export PATH="/usr/local/opt/postgresql@11/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
