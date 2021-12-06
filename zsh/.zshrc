@@ -110,7 +110,8 @@ alias la='ls -A'
 alias l='ls -CF'
 alias dc='docker-compose'
 alias dcr='docker-compose run --rm'
-alias dcr-coverage='dcr --entrypoint="../bin/coverage.sh" django'
+# alias dcr-coverage='dcr --entrypoint="../bin/coverage.sh" django'
+alias nuget="mono /usr/local/bin/nuget.exe"
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 #if command -v pyenv 1>/dev/null 2>&1; then
@@ -118,3 +119,5 @@ eval "$(pyenv init -)"
 #fi
 export PATH="/usr/local/opt/postgresql@11/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
+export PATH=$HOME/.dotnet/tools:$PATH
+eval "$(direnv hook zsh)"
