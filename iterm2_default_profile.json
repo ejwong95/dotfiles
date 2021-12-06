@@ -1,5 +1,11 @@
 {
-  "Use Non-ASCII Font" : false,
+  "Ansi 3 Color" : {
+    "Red Component" : 0.92974853515625,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.59434334002435207,
+    "Alpha Component" : 1,
+    "Green Component" : 0.90638694624270633
+  },
   "Tags" : [
 
   ],
@@ -8,30 +14,28 @@
     "Blue Component" : 0.96422785520553589,
     "Red Component" : 0.34518492221832275
   },
-  "Ansi 6 Color" : {
-    "Green Component" : 0.62000316381454468,
-    "Blue Component" : 0.9057307243347168,
-    "Red Component" : 0.11962155997753143
+  "Ansi 7 Color" : {
+    "Green Component" : 0.73333334922790527,
+    "Blue Component" : 0.73333334922790527,
+    "Red Component" : 0.73333334922790527
   },
-  "Normal Font" : "MesloLGMDZForPowerline-Regular 12",
+  "Ansi 8 Color" : {
+    "Green Component" : 0.33333333333333331,
+    "Blue Component" : 0.33333333333333331,
+    "Red Component" : 0.33333333333333331
+  },
   "Bold Color" : {
     "Green Component" : 1,
     "Blue Component" : 1,
     "Red Component" : 1
   },
-  "Transparency" : 0,
-  "Ansi 4 Color" : {
-    "Red Component" : 0.51318597793579102,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.90234375,
-    "Alpha Component" : 1,
-    "Green Component" : 0.70368274807294873
+  "Ansi 9 Color" : {
+    "Green Component" : 0.54818046092987061,
+    "Blue Component" : 0.56038051843643188,
+    "Red Component" : 0.98118621110916138
   },
-  "Ansi 5 Color" : {
-    "Green Component" : 0.30290430784225464,
-    "Blue Component" : 0.58497250080108643,
-    "Red Component" : 0.57944053411483765
-  },
+  "Horizontal Spacing" : 1,
+  "Right Option Key Sends" : 0,
   "Rows" : 25,
   "Default Bookmark" : "No",
   "Cursor Guide Color" : {
@@ -315,12 +319,32 @@
     "Alpha Component" : 1,
     "Green Component" : 0
   },
-  "Ansi 1 Color" : {
-    "Green Component" : 0.3340601921081543,
-    "Blue Component" : 0.37318974733352661,
-    "Red Component" : 0.97839218378067017
+  "Transparency" : 0,
+  "Ansi 2 Color" : {
+    "Green Component" : 0.68971765041351318,
+    "Blue Component" : 0.5378691554069519,
+    "Red Component" : 0.12836624681949615
   },
-  "Horizontal Spacing" : 1,
+  "Custom Directory" : "No",
+  "Ansi 4 Color" : {
+    "Red Component" : 0.51318597793579102,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.90234375,
+    "Alpha Component" : 1,
+    "Green Component" : 0.70368274807294873
+  },
+  "Ansi 5 Color" : {
+    "Green Component" : 0.30290430784225464,
+    "Blue Component" : 0.58497250080108643,
+    "Red Component" : 0.57944053411483765
+  },
+  "Use Non-ASCII Font" : false,
+  "Ansi 6 Color" : {
+    "Green Component" : 0.62000316381454468,
+    "Blue Component" : 0.9057307243347168,
+    "Red Component" : 0.11962155997753143
+  },
+  "Normal Font" : "MesloLGMDZForPowerline-Regular 12",
   "Link Color" : {
     "Red Component" : 0,
     "Color Space" : "sRGB",
@@ -328,34 +352,10 @@
     "Alpha Component" : 1,
     "Green Component" : 0.35916060209274292
   },
-  "Guid" : "96C502A4-E943-4801-BF46-662144C9BD68",
-  "Ansi 2 Color" : {
-    "Green Component" : 0.68971765041351318,
-    "Blue Component" : 0.5378691554069519,
-    "Red Component" : 0.12836624681949615
+  "Ansi 1 Color" : {
+    "Green Component" : 0.3340601921081543,
+    "Blue Component" : 0.37318974733352661,
+    "Red Component" : 0.97839218378067017
   },
-  "Ansi 3 Color" : {
-    "Red Component" : 0.92974853515625,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.59434334002435207,
-    "Alpha Component" : 1,
-    "Green Component" : 0.90638694624270633
-  },
-  "Ansi 7 Color" : {
-    "Green Component" : 0.73333334922790527,
-    "Blue Component" : 0.73333334922790527,
-    "Red Component" : 0.73333334922790527
-  },
-  "Ansi 8 Color" : {
-    "Green Component" : 0.33333333333333331,
-    "Blue Component" : 0.33333333333333331,
-    "Red Component" : 0.33333333333333331
-  },
-  "Ansi 9 Color" : {
-    "Green Component" : 0.54818046092987061,
-    "Blue Component" : 0.56038051843643188,
-    "Red Component" : 0.98118621110916138
-  },
-  "Custom Directory" : "No",
-  "Right Option Key Sends" : 0
+  "Guid" : "96C502A4-E943-4801-BF46-662144C9BD68"
 }
