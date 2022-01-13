@@ -13,3 +13,10 @@
   * (For auto virtualenv enable/disable): clone repo to local https://github.com/RobertDeRose/virtualenv-autodetect#installation
   * Create a .zshenv file, if one does not exist, and add `source /path/to/virtualenv-autodetect.sh`
   * (For updating avit theme): changes to `avit.zsh-theme` primarily include using a different `RPROMPT` to display a timestamp
+
+Simple Vim set up
+* `brew install vim`
+* `touch ~/.vimrc`; copy `.vimrc`
+* `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim` - install Vundle
+* `cd ~/.vim/bundle`
+* `git clone git://github.com/altercation/vim-colors-solarized.git` - install solarized theme
